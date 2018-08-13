@@ -1,0 +1,29 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    curb (0.9.6)
+    mustermann (1.0.2)
+    rack (2.0.5)
+    rack-protection (2.0.3)
+      rack
+    ruby_http_client (3.3.0)
+    sendgrid-ruby (5.2.0)
+      ruby_http_client (~> 3.2)
+      sinatra (>= 1.4.7, < 3)
+    sinatra (2.0.3)
+      mustermann (~> 1.0)
+      rack (~> 2.0)
+      rack-protection (= 2.0.3)
+      tilt (~> 2.0)
+    tilt (2.0.8)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  curb!
+  sendgrid-ruby!
+  sinatra!
+
+BUNDLED WITH
+   1.16.3
