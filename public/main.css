@@ -6,6 +6,7 @@ html{
 
   .container{
     width: 100vw;
+
   }
 
   .container ul{
@@ -14,7 +15,6 @@ html{
     list-style: none;
     padding: 2%;
     flex-direction:row;
-
 
   }
 
@@ -45,7 +45,8 @@ html{
   }
 
   .c-banner{
-    position: fixed;
+
+
     background-image: url("cupcake.jpg");
     height: 70vh;
     width: 100vw;
@@ -53,4 +54,30 @@ html{
     background-size: cover;
     margin-top: -10px;
     z-index:0;
+  }
+
+  .container-cookie img{
+    padding-top: 30px;
+    width: 100%;
+    height: 100%;
+  }
+
+  .icon img{
+    animation: spin 1s infinite;
+  }
+
+  @keyframes spin{
+    0% {transform:rotate(5deg);}
+    5% {transform:rotate(10deg);}
+    10% {transform:rotate(20deg);}
+    20% {transform:rotate(30deg);}
+    30% {transform:rotate(40deg);}
+    40% {transform:rotate(50deg);}
+    50% {transform:rotate(60deg);}
+    60% {transform:rotate(70deg);}
+    70% {transform:rotate(80deg);}
+    80% {transform:rotate(90deg);}
+    90% {transform:rotate(100deg);}
+    100% {transform:rotate(360deg);}
+
   }

@@ -1,13 +1,35 @@
 require 'sinatra'
-require 'curl'
+require 'httparty'
 
 
+response = HTTParty.get('https://www.eventbriteapi.com/v3/events/search/?q=bakery&token=VP4EQM5NWKZGWEMX2DST')
+
+r = JSON.parse(response.body)
 
 
 
 
 
 get '/' do
+
+
+names  = []
+description = []
+@event_name = []
+@event_description = []
+ # r["events"][0]["description"]["text"]
+
+r["events"].each {|x| description << x["description"]}
+
+
+description.each {|y| @event_description << y["text"]}
+
+
+r["events"].each do |x| names << x["name"]
+end
+
+  names.each do |y|  @event_name  << y["text"]
+end
 
 
   erb :home
