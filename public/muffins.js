@@ -13,12 +13,12 @@ this.amount = mcounter += 1;
   }
 
 }
-newMuffin = new Muffins(1, "corn");
 
 
 
 var muffin = document.getElementById("corn-muffin");
 muffin.addEventListener("click", function(){
+newMuffin = new Muffins(1, "corn");
 console.log(newMuffin.amount);
 console.log(newMuffin.description);
 

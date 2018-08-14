@@ -40,3 +40,29 @@ console.log(ging.amount);
 console.log(ging.description);
 
 })
+
+var almond = document.getElementById("almond-cookie");
+almond.addEventListener("click", function(){
+  all = new Cookie(1, "almond");
+  console.log(all.amount);
+  console.log(all.description);
+})
+
+var coco = document.getElementById("coco-cookie");
+coco.addEventListener("click", function(){
+  coca = new Cookie(1, "coconut");
+  console.log(coca.amount);
+  console.log(coca.description);
+})
+
+
+
+var bw = document.getElementById("bw-cookie");
+bw.addEventListener("click", function(){
+  bwhite = new Cookie(1, "black&white");
+  console.log(bwhite.amount);
+  console.log(bwhite.description);
+})
+
+
+
