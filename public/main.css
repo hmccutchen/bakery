@@ -1,38 +1,150 @@
+@import "cake.css";
+@import "events.css";
+
 html{
   margin: 0;
   font-family: sans-serif;
-}
-
-.nav-container{
-margin: 0;
-position: relative;
-
 
 }
 
-.nav-container ul{
-display: flex;
-justify-content: flex-end;
-background-color: #f2f5f9;
-padding: 15px;
-    margin-top: -7px;
-    margin-left: -7px;
-    margin-right: -7px;
+  .container{
+    width: 100vw;
+
+  }
+
+  .container ul{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    padding: 2%;
+    flex-direction:row;
+
+  }
+
+  .container li{
+    margin-right: 20px;
+    font-size: 22px;
+
+  }
+
+  .container a{
+    color: black;
+    padding: 10px;
+    transition: background-color, .3s;
+  }
+
+  .container a:hover{
+    text-decoration: none;
+    background-color:#f4ebf0;
+    border-radius: 10%;
+    opacity: .7;
+
+  }
+  .icon img{
+    width: 4%;
+    position: fixed;
+    right: 95%;
+    top: 7px;
+  }
+
+  .c-banner{
+
+    background-image: url("cupcake.jpg");
+    height: 70vh;
+    width: 100vw;
+    background-position: center;
+    background-size: cover;
+    margin-top: -10px;
+    z-index:0;
+  }
+
+  .c-banner h1{
+    text-align: center;
+    font-size: 82px;
+    font-family: 'Indie Flower', cursive;
+    padding-top: 60px;
+  }
+
+  .container-cookie img{
+    display: flex;
+   /* padding-top: 30px;*/
+    width: 100%;
+    height: 100%;
+    filter: drop-shadow(4px 4px 10px gray);
+    border-radius: 5%;
+  }
+
+
+.container-cookie h2{
+
+margin-left: 135px;
 
 }
 
-.nav-container li{
-  list-style: none;
+#oatmeal img{
+  width: 80%;
+
+
 }
 
-.nav-container a{
-  text-decoration: none;
- margin-right: 15px;
- color: #000;
- font-size: 20px;
- padding: 20px;
+
+
+#choc-cookie{
+  width: 80%;
+
 }
 
-.nav-container a:hover{
-  background-color: #ed9950;
+#choc-cookie:hover{
+  cursor: pointer;
 }
+
+
+#ginger-cookie{
+  width: 80%;
+  cursor: pointer;
+}
+
+
+#almond-cookie{
+  width: 100%;
+  cursor: pointer;
+}
+#coco-cookie{
+  width: 100%;
+  cursor: pointer;
+}
+
+#bw-cookie{
+  width:100%;
+  cursor: pointer;
+}
+
+
+
+  .icon img{
+    animation: spin 10s infinite;
+  }
+
+  @keyframes spin{
+    0% {transform:rotate(0deg);}
+    4% {transform:rotate(5deg);}
+    5% {transform:rotate(10deg);}
+    10% {transform:rotate(15deg);}
+    15% {transform:rotate(20deg);}
+    20% {transform:rotate(30deg);}
+    25% {transform:rotate(40deg);}
+    30% {transform:rotate(50deg);}
+    35% {transform:rotate(55deg);}
+    40% {transform:rotate(60deg);}
+    45% {transform:rotate(70deg);}
+    50% {transform:rotate(74deg);}
+    60% {transform:rotate(80deg);}
+    65% {transform:rotate(85deg);}
+    70% {transform:rotate(90deg);}
+    75% {transform:rotate(100deg);}
+    80% {transform:rotate(110deg);}
+    90% {transform:rotate(120deg);}
+    95% {transform:rotate(130deg);}
+    100% {transform:rotate(150deg);}
+
+  }
