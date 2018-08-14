@@ -1,0 +1,19 @@
+
+<h1 class="events"> See your local Bakery events</h1>
+
+
+
+
+<div class="container">
+ <div class="row">
+<% @r["events"].each do |x| %>
+   <div class="col-md-4 col-sm-6">
+
+<h3><%= x["name"]["text"]%></h3>
+<p><%= x["description"]["text"]%></p>
+    </div>
+  </div>
+      <% end %>
+</div>
+
+

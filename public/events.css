@@ -1,0 +1,57 @@
+
+
+.events {
+font-family: 'Indie Flower', cursive;
+text-align: center;
+font-size: 60px;
+}
+
+
+#blue-muffin{
+  width: 100%;
+}
+
+#blue-muffin:hover{
+  cursor: pointer;
+}
+
+#banana-muffin{
+  width: 100%;
+}
+
+#banana-muffin:hover{
+  cursor: pointer;
+}
+
+
+
+#choc-muffin{
+  width: 100%
+
+
+}
+
+
+#choc-muffin:hover{
+  cursor: pointer;
+}
+
+#straw-muff{
+  width: 100%;
+  margin-top: 10px;
+
+}
+
+#starw-muff:hover{
+  cursor: pointer;
+}
+
+#corn-muffin{
+  width: 100%;
+  margin-top: 15px;
+
+}
+
+#corn-muffin:hover{
+  cursor: pointer;
+}

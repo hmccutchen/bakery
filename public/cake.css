@@ -1,0 +1,42 @@
+
+
+
+#pine-cake{
+  width: 100%;
+  cursor: pointer;
+
+}
+
+
+#b-cake{
+  width: 100%;
+  height: 200px;
+  cursor: pointer;
+}
+
+#coco-cake{
+  width: 100%;
+  height: 200px;
+  cursor: pointer;
+}
+
+#cheese-cake{
+  width: 100%;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+
+#red-velvet{
+  width: 100%;
+  height: 250px;
+  margin-top: 30px;
+  cursor: pointer;
+}
+
+#carrot-cake{
+  width: 100%;
+  margin-top: 30px;
+  height: 250px;
+  cursor: pointer;
+}
