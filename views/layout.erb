@@ -9,34 +9,41 @@
 <body>
 
 
-<div class="container">
-  <div class="row">
-    <ul>
-     <a class="icon" href="home.erb"><img src="apple-pie.png" alt=""></a>
-      <li><a href="cookies.erb">Cookies</a></li>
-      <li><a href="cakes.erb">Cakes</a></li>
-      <li><a href="muffins.erb">muffins</a></li>
-      <li><a href="events.erb">events</a></li>
-    </ul>
-
-  </div>
-
-</div>
-
-
-
-
-
-
-<%= yield %>
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12 col-sm-6 col-xs-12">
+        <ul>
+         <a class="icon" href="home.erb"> <img src="apple-pie.png" alt=""></a>
+         <li><a class="nav-links" href="cookies.erb">Cookies</a></li>
+         <li><a class="nav-links" href="cakes.erb">Cakes</a></li>
+         <li><a class="nav-links" href="muffins.erb">muffins</a></li>
+         <li><a class="nav-links" href="events.erb">events</a></li>
+       </ul>
+     </div>
+   </div>
+ </div>
 
 
 
 
 
 
-<script src="muffins.js"></script>
-<script src= "cookies.js"></script>
-<script src="cakes.js"></script>
+ <%= yield %>
+
+
+
+
+
+
+      <div class="footer">
+
+
+    </div>
+
+
+
+ <script src="muffins.js"></script>
+ <script src= "cookies.js"></script>
+ <script src="cakes.js"></script>
 </body>
 </html>

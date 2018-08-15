@@ -16,9 +16,10 @@ html{
     display: flex;
     justify-content: flex-end;
     list-style: none;
-    padding: 2%;
-    flex-direction:row;
+    /*padding: 2%;*/
+    /*flex-direction:row;*/
 
+    margin-top: 10px;
   }
 
   .container li{
@@ -27,13 +28,13 @@ html{
 
   }
 
-  .container a{
+   .nav-links {
     color: black;
     padding: 10px;
     transition: background-color, .3s;
   }
 
-  .container a:hover{
+  .nav-links:hover{
     text-decoration: none;
     background-color:#f4ebf0;
     border-radius: 10%;
@@ -42,20 +43,19 @@ html{
   }
   .icon img{
     width: 4%;
-    position: fixed;
+    position: absolute;
     right: 95%;
     top: 7px;
   }
 
   .c-banner{
-
     background-image: url("cupcake.jpg");
     height: 70vh;
     width: 100vw;
     background-position: center;
     background-size: cover;
-    margin-top: -10px;
     z-index:0;
+    filter: drop-shadow(3px 4px 5px gray);
   }
 
   .c-banner h1{
@@ -68,21 +68,26 @@ html{
   .container-cookie img{
     display: flex;
    /* padding-top: 30px;*/
+   margin-top: 20px;
     width: 100%;
     height: 100%;
     filter: drop-shadow(4px 4px 10px gray);
     border-radius: 5%;
   }
 
-
+.container-cookie:hover{
+  background-color: white;
+  opacity: 0.8;
+  border-radius:5%;
+}
 .container-cookie h2{
 
-margin-left: 135px;
+margin-left: 100px;
 
 }
 
 #oatmeal img{
-  width: 80%;
+  width: 100%;
 
 
 }
@@ -90,7 +95,7 @@ margin-left: 135px;
 
 
 #choc-cookie{
-  width: 80%;
+  width: 100%;
 
 }
 
@@ -100,7 +105,7 @@ margin-left: 135px;
 
 
 #ginger-cookie{
-  width: 80%;
+  width: 100%;
   cursor: pointer;
 }
 
@@ -119,12 +124,42 @@ margin-left: 135px;
   cursor: pointer;
 }
 
+.cookies{
+  margin-top: 10%;
+}
 
+.cookies h2{
+  margin-right: 20px;
+}
+
+.bottom{
+  margin-top: 20%;
+}
 
   .icon img{
     animation: spin 10s infinite;
   }
 
+  .muffins{
+    margin-top: 10%;
+  }
+  .card:hover{
+     background-color: white;
+  opacity: 0.8;
+  }
+
+ button.btn.btn-primary{
+  padding: 10px;
+  background-color: green;
+  border-color: green;
+  width: 100%;
+}
+.total{
+  text-align: center;
+}
+#number{
+  text-align: center;
+}
   @keyframes spin{
     0% {transform:rotate(0deg);}
     4% {transform:rotate(5deg);}
@@ -146,5 +181,16 @@ margin-left: 135px;
     90% {transform:rotate(120deg);}
     95% {transform:rotate(130deg);}
     100% {transform:rotate(150deg);}
+
+  }
+
+
+  .footer{
+  margin-top: 20px;
+  padding: 0;
+    width: 100vw;
+    background-color: #f4ebf0;
+    height: 5vh;
+
 
   }

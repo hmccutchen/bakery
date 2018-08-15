@@ -20,6 +20,7 @@ chocCookie.addEventListener("click", function(){
 choco = new Cookie(1, "chocolate");
 console.log(choco.amount);
 console.log(choco.description);
+document.getElementById("number").innerHTML = choco.amount;
 
 })
 
@@ -29,6 +30,7 @@ oat.addEventListener("click", function(){
   oats = new Cookie(1, "oatmeal");
   console.log(oats.amount);
   console.log(oats.description);
+  document.getElementById("number").innerHTML = oats.amount;
 })
 
 var ginger = document.getElementById("ginger-cookie");
@@ -38,6 +40,7 @@ ging = new Cookie(1, "ginger");
 
 console.log(ging.amount);
 console.log(ging.description);
+document.getElementById("number").innerHTML = ging.amount;
 
 })
 
@@ -46,6 +49,7 @@ almond.addEventListener("click", function(){
   all = new Cookie(1, "almond");
   console.log(all.amount);
   console.log(all.description);
+  document.getElementById("number").innerHTML = all.amount;
 })
 
 var coco = document.getElementById("coco-cookie");
@@ -53,6 +57,7 @@ coco.addEventListener("click", function(){
   coca = new Cookie(1, "coconut");
   console.log(coca.amount);
   console.log(coca.description);
+  document.getElementById("number").innerHTML = coca.amount;
 })
 
 
@@ -62,6 +67,7 @@ bw.addEventListener("click", function(){
   bwhite = new Cookie(1, "black&white");
   console.log(bwhite.amount);
   console.log(bwhite.description);
+  document.getElementById("number").innerHTML = bwhite.amount;
 })
 
 
