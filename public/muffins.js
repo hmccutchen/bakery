@@ -22,7 +22,7 @@ newMuffin = new Muffins(1, "corn");
 console.log(newMuffin.amount);
 console.log(newMuffin.description);
 
-
+document.getElementById("number").innerHTML = newMuffin.amount;
 
 })
 
@@ -32,6 +32,7 @@ blueMuffin.addEventListener("click", function(){
   bmuffin = new Muffins(1, "blue");
   console.log(bmuffin.amount);
   console.log(bmuffin.description);
+  document.getElementById("number").innerHTML = bmuffin.amount;
 })
 
 
@@ -40,6 +41,7 @@ strawMuffin.addEventListener("click", function(){
   smuffin = new Muffins(1, "strawberry");
   console.log(smuffin.amount);
   console.log(smuffin.description);
+  document.getElementById("number").innerHTML = smuffin.amount;
 })
 
 
@@ -52,6 +54,7 @@ cMuff = new Muffins(1, "chocolate!");
 console.log(cMuff.amount);
 
 console.log(cMuff.description);
+document.getElementById("number").innerHTML = cMuff.amount;
 
 })
 

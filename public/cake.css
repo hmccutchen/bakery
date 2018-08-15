@@ -1,5 +1,7 @@
 
-
+.cakes{
+  margin-top: 10%;
+}
 
 #pine-cake{
   width: 100%;
@@ -39,4 +41,11 @@
   margin-top: 30px;
   height: 250px;
   cursor: pointer;
+}
+
+ button.btn.btn-primary{
+  padding: 10px;
+  background-color: green;
+  border-color: green;
+  width: 100%;
 }
